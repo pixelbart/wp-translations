@@ -1,0 +1,368 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PowerUp\n"
+"POT-Creation-Date: 2017-06-08 12:12+0200\n"
+"PO-Revision-Date: 2017-06-08 12:33+0200\n"
+"Last-Translator: Devhats <kevin@devhats.de>\n"
+"Language-Team: Devhats <kevin@devhats.de>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:4
+msgid "Oops, nothing to see here..."
+msgstr "Entschuldigung, hier gibt’s (noch) nichts zu sehen..."
+
+#: 404.php:8
+msgid ""
+"Looks like you discovered a page that does not exist anymore, or perhaps it "
+"never did."
+msgstr "Anscheinend existiert die Seite nicht oder nicht mehr."
+
+#: 404.php:12
+msgid "GO TO FRONT PAGE"
+msgstr "ZUR STARTSEITE"
+
+#: archive.php:12 author.php:12 category.php:12 index.php:114 search.php:12
+#: tag.php:12
+msgid "Highlighted"
+msgstr "Hervorgehoben"
+
+#: archive.php:15 author.php:15 category.php:15 index.php:117 search.php:15
+#: tag.php:15
+msgid "Color-marked content should be considered essential reading."
+msgstr "Farblich markierte Beiträge MÜSSEN unbedingt gelesen werden."
+
+#: archive.php:25
+msgid "Content published on"
+msgstr "Veröffentlicht am"
+
+#: archive.php:25
+msgctxt "daily archives format"
+msgid "F jS, Y"
+msgstr "d.m.Y"
+
+#: archive.php:30 archive.php:35
+msgid "Content published in"
+msgstr "Veröffentlich in"
+
+#: archive.php:30
+msgctxt "monthly archives format"
+msgid "F Y"
+msgstr "d.Y"
+
+#: archive.php:35
+msgctxt "yearly archives format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:58 author.php:43 category.php:43 index.php:141 index.php:166
+#: search.php:43 tag.php:43
+msgid "Apologies, nothing found."
+msgstr "Entschuldigung, hier wurde nichts gefunden."
+
+#: author.php:24
+msgid "Content by"
+msgstr "Beitrag von"
+
+#: category.php:24
+msgid "Content filed under"
+msgstr "Abgelegt unter"
+
+#: comments.php:2
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Dieser Beitrag ist passwortgeschützt. Gebe das Passwort ein, um alle "
+"Kommentare anzuzeigen."
+
+#: comments.php:66
+msgid "Your (nick)name*"
+msgstr "Dein (Nick)Name*"
+
+#: comments.php:69
+msgid "E-mail address (hidden)*"
+msgstr "E-Mail-Adresse (versteckt)*"
+
+#: comments.php:72
+msgid "Website (optional)"
+msgstr "Website (optional)"
+
+#: comments.php:75
+msgid "Type your comment here to join or kick off the discussion...*"
+msgstr "Gebe hier deinen Kommentar ein um an der Diskussion teilzunehmen...*"
+
+#: comments.php:77
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\">Log out?</a>"
+msgstr ""
+"Angemeldet als <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"M&ouml;"
+"chtest du dich abmelden\">Abmelden?</a>"
+
+#: comments.php:82
+msgid "Submit"
+msgstr "Senden"
+
+#: content.php:20
+msgid "Sticky:"
+msgstr "Angepinnt:"
+
+#: content.php:25 loop-single.php:50 page-no-sidebar.php:30 page.php:26
+#, php-format
+msgid "Permalink to %s"
+msgstr "Permalink zu %s"
+
+#: functions.php:48
+msgid "PowerUp Theme: Header Tabs"
+msgstr "PowerUp Theme: Tabs in der Kopfzeile"
+
+#: functions.php:49
+msgid "PowerUp Theme: Header Dropdown Menu"
+msgstr "PowerUp Theme: Dropdown-Menü in der Kopfzeile"
+
+#: functions.php:50
+msgid "PowerUp Theme: Footer Menu"
+msgstr "PowerUp Theme: Menü in der Fußzeile"
+
+#: functions.php:93
+msgid "Front page ad spot (300x250)"
+msgstr "Werbung auf der Startseite (300x250)"
+
+#: functions.php:95
+msgid ""
+"Appears next to featured content slider (if enabled). 300x250 format, use "
+"the text widget to enter your ad code)."
+msgstr ""
+"Erscheint neben dem Slider (wenn aktiviert). Das Format ist 300x250. "
+"Verwende das Text-Widget um deinen Code einzufügen."
+
+#: functions.php:103
+msgid "Sidebar ad spot"
+msgstr "Werbung in der Sidebar"
+
+#: functions.php:105
+msgid ""
+"This widget location is intended for an ad placement (300px width format, "
+"use the text widget to enter your ad code). For standard widgets, please use "
+"the \"Sidebar widgets\" widget location."
+msgstr ""
+"Diese Werbefläche ist für Werbeformate mit einer Breite von 300px. Benutze "
+"auch hier ein Text-Widget um deinen Code einzufügen."
+
+#: functions.php:113
+msgid "Sidebar widgets"
+msgstr "Sidebar Widgets"
+
+#: functions.php:115 functions.php:135 functions.php:145 functions.php:155
+msgid "Drag widgets here"
+msgstr "Widgets hierher ziehen"
+
+#: functions.php:123
+msgid "Dropdown menu widgets"
+msgstr "Dropdown-Menü Widgets"
+
+#: functions.php:125
+msgid "This widget location is located inside the header dropdown menu."
+msgstr ""
+"Diese Widgets werden im Dropdown-Menü innerhalb der Kopfzeile platziert."
+
+#: functions.php:133
+msgid "Footer Widgets (column 1)"
+msgstr "Footer Widgets (Spalte 1)"
+
+#: functions.php:143
+msgid "Footer Widgets (column 2)"
+msgstr "Footer Widgets (Spalte 2)"
+
+#: functions.php:153
+msgid "Footer Widgets (column 3)"
+msgstr "Footer Widgets (Spalte 3)"
+
+#: functions.php:205
+msgid "Recent Posts"
+msgstr "Aktuelle Beiträge"
+
+#: functions.php:298
+msgid "Title:"
+msgstr "Titel:"
+
+#: functions.php:306
+msgid "Number of comments to show:"
+msgstr "Anzahl der Kommentare, die angezeigt werden sollen:"
+
+#: functions.php:312
+msgid "Recent Comments"
+msgstr "Neueste Kommentare"
+
+#: functions.php:327
+msgid "On: "
+msgstr "Am: "
+
+#: functions.php:381
+msgctxt "Google font: on or off"
+msgid "on"
+msgstr "aktiv"
+
+#: functions.php:504
+msgid "(Awaiting moderation.)"
+msgstr "(Wartet auf Moderation.)"
+
+#: functions.php:512
+msgid "on"
+msgstr "am"
+
+#: functions.php:514
+msgid "Reply"
+msgstr "Antworten"
+
+#: functions.php:515
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: functions.php:532
+msgid "PowerUp Theme"
+msgstr "PowerUp Theme"
+
+#: functions.php:537
+msgid "Logo"
+msgstr "Logo"
+
+#: functions.php:578
+msgid "Dropdown Menu"
+msgstr "Dropdown-Menü"
+
+#: functions.php:638
+msgid "Header Tabs"
+msgstr "Kopfzeilen Tabs"
+
+#: functions.php:658
+msgid "Featured & Trending Content"
+msgstr "Empfohlener & Beliebter Inhalt"
+
+#: functions.php:678
+msgid "Quicklink & Search"
+msgstr "Quicklink & Suche"
+
+#: functions.php:698
+msgid "Misc"
+msgstr "Sonstiges"
+
+#: header.php:72
+msgid "Trending"
+msgstr "Beliebt"
+
+#: header.php:75
+msgid "Most discussed stories from the last week."
+msgstr "Die beliebtesten Beiträge der letzten Woche."
+
+#: include-header.php:27
+msgid "BROWSE"
+msgstr "MEHR"
+
+#: include-menu.php:11 searchform.php:3
+msgid "Search..."
+msgstr "Suchen..."
+
+#: include-menu.php:33
+msgid "SOCIAL:"
+msgstr "SOCIAL:"
+
+#: include-sponsored.php:2
+msgid "Sponsored"
+msgstr "Gesponsert"
+
+#: include-sponsored.php:6
+msgid "Purchase ad space"
+msgstr "Werbefläche mieten"
+
+#: index.php:72
+msgid "By "
+msgstr "Von "
+
+#: index.php:78
+msgid "Read now"
+msgstr "Weiterlesen"
+
+#: index.php:149
+msgid "Latest content"
+msgstr "Die letzten Beiträge"
+
+#: loop-index.php:53
+msgid "Pinned:"
+msgstr "Angepinnt:"
+
+#: loop-index.php:77
+msgid "Read more"
+msgstr "Weiterlesen"
+
+#: loop-single.php:41
+msgid "Filed under:"
+msgstr "Abgelegt unter:"
+
+#: loop-single.php:57 page-no-sidebar.php:37 page.php:33
+msgid "Continues.."
+msgstr "Weiterlesen..."
+
+#: loop-single.php:62 page-no-sidebar.php:42 page.php:38
+msgid "Pages:"
+msgstr "Seiten:"
+
+#: loop-single.php:69
+msgid "Edit post"
+msgstr "Beitrag bearbeiten"
+
+#: loop-single.php:96
+msgid "Tagged with:"
+msgstr "Verschlagwortet mit:"
+
+#: page-no-sidebar.php:47 page.php:43
+msgid "Edit page"
+msgstr "Seite bearbeiten"
+
+#: pagination.php:6
+msgid "&lt;"
+msgstr "&lt;"
+
+#: pagination.php:7
+msgid "&gt;"
+msgstr "&gt;"
+
+#: search.php:24
+msgid "Search results for"
+msgstr "Suchergebnis für"
+
+#: tag.php:24
+msgid "Content tagged with"
+msgstr "Verschlagwortet mit"
+
+#. Theme Name of the plugin/theme
+msgid "PowerUp"
+msgstr "PowerUp"
+
+#. Theme URI of the plugin/theme
+msgid "http://bonfirethemes.com/powerup/"
+msgstr "http://bonfirethemes.com/powerup/"
+
+#. Description of the plugin/theme
+msgid "The Premium Video Game Theme for WordPress"
+msgstr "Das Premium WordPress Theme für Videospiele"
+
+#. Author of the plugin/theme
+msgid "Bonfire Themes"
+msgstr "Bonfire Themes"
+
+#. Author URI of the plugin/theme
+msgid "http://bonfirethemes.com/"
+msgstr "http://bonfirethemes.com/"
