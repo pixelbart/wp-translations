@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PowerUp\n"
-"POT-Creation-Date: 2017-06-11 12:43+0200\n"
-"PO-Revision-Date: 2017-06-11 12:46+0200\n"
+"POT-Creation-Date: 2017-06-18 13:15+0200\n"
+"PO-Revision-Date: 2017-06-18 13:16+0200\n"
 "Last-Translator: Devhats <kevin@devhats.de>\n"
 "Language-Team: Devhats <kevin@devhats.de>\n"
 "Language: de_DE\n"
@@ -35,12 +35,12 @@ msgstr "Anscheinend existiert die Seite nicht oder nicht mehr."
 msgid "GO TO FRONT PAGE"
 msgstr "ZUR STARTSEITE"
 
-#: archive.php:12 author.php:12 category.php:12 index.php:114 search.php:12
+#: archive.php:12 author.php:12 category.php:12 index.php:39 search.php:12
 #: tag.php:12
 msgid "Highlighted"
 msgstr "Hervorgehoben"
 
-#: archive.php:15 author.php:15 category.php:15 index.php:117 search.php:15
+#: archive.php:15 author.php:15 category.php:15 index.php:42 search.php:15
 #: tag.php:15
 msgid "Color-marked content should be considered essential reading."
 msgstr "Farblich markierte Beiträge MÜSSEN unbedingt gelesen werden."
@@ -68,7 +68,7 @@ msgctxt "yearly archives format"
 msgid "Y"
 msgstr "Y"
 
-#: archive.php:58 author.php:43 category.php:43 index.php:141 index.php:166
+#: archive.php:58 author.php:43 category.php:43 index.php:66 index.php:91
 #: search.php:43 tag.php:43
 msgid "Apologies, nothing found."
 msgstr "Entschuldigung, hier wurde nichts gefunden."
@@ -142,8 +142,8 @@ msgstr "Werbung auf der Startseite (300x250)"
 
 #: functions.php:95
 msgid ""
-"Appears next to featured content slider (if enabled). 300x250 format, use "
-"the text widget to enter your ad code)."
+"Appears next to featured content slider (if alternate featured area layout "
+"enabled). 300x250 format, use the text widget to enter your ad code)."
 msgstr ""
 "Erscheint neben dem Slider (wenn aktiviert). Das Format ist 300x250. "
 "Verwende das Text-Widget um deinen Code einzufügen."
@@ -251,11 +251,11 @@ msgstr "Kopfzeilen Tabs"
 msgid "Featured & Trending Content"
 msgstr "Empfohlener & Beliebter Inhalt"
 
-#: functions.php:678
+#: functions.php:683
 msgid "Quicklink & Search"
 msgstr "Quicklink & Suche"
 
-#: functions.php:698
+#: functions.php:703
 msgid "Misc"
 msgstr "Sonstiges"
 
@@ -266,6 +266,24 @@ msgstr "Beliebt"
 #: header.php:75
 msgid "Most discussed stories from the last week."
 msgstr "Die beliebtesten Beiträge der letzten Woche."
+
+#: include-featured-alt.php:55
+msgid "By "
+msgstr "Von "
+
+#: include-featured-alt.php:61
+msgid "Read now"
+msgstr "Weiterlesen"
+
+#: include-featured.php:56 include-featured.php:124 loop-single.php:170
+msgid "By"
+msgstr "Von"
+
+#: include-featured.php:56 include-featured.php:124 loop-single.php:170
+#, php-format
+msgctxt "%s = human-readable time difference"
+msgid "%s ago"
+msgstr "vor %s"
 
 #: include-header.php:27
 msgid "BROWSE"
@@ -287,15 +305,7 @@ msgstr "Gesponsert"
 msgid "Purchase ad space"
 msgstr "Werbefläche mieten"
 
-#: index.php:72
-msgid "By "
-msgstr "Von "
-
-#: index.php:78
-msgid "Read now"
-msgstr "Weiterlesen"
-
-#: index.php:149
+#: index.php:74
 msgid "Latest content"
 msgstr "Die letzten Beiträge"
 
@@ -328,18 +338,8 @@ msgid "Tagged with:"
 msgstr "Verschlagwortet mit:"
 
 #: loop-single.php:109
-msgid "RELATED STORIES"
-msgstr "ÄHNLICHE BEITRÄGE"
-
-#: loop-single.php:160
-msgid "By"
-msgstr "Von"
-
-#: loop-single.php:160
-#, php-format
-msgctxt "%s = human-readable time difference"
-msgid "%s ago"
-msgstr "vor %s"
+msgid "YOU MIGHT ALSO LIKE"
+msgstr "DAS WIRD DICH AUCH INTERESSIEREN"
 
 #: page-no-sidebar.php:47 page.php:43
 msgid "Edit page"
@@ -380,3 +380,13 @@ msgstr "Bonfire Themes"
 #. Author URI of the plugin/theme
 msgid "http://bonfirethemes.com/"
 msgstr "http://bonfirethemes.com/"
+
+#~ msgid ""
+#~ "Appears next to featured content slider (if enabled). 300x250 format, use "
+#~ "the text widget to enter your ad code)."
+#~ msgstr ""
+#~ "Erscheint neben dem Slider (wenn aktiviert). Das Format ist 300x250. "
+#~ "Verwende das Text-Widget um deinen Code einzufügen."
+
+#~ msgid "RELATED STORIES"
+#~ msgstr "ÄHNLICHE BEITRÄGE"
